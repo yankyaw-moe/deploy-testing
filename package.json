@@ -30,7 +30,7 @@
     ]
   },
   "dependencies": {
-    "ajv": "8.10.0",
+    "ajv": "6.12.6",
     "bignumber.js": "9.0.2",
     "canvas-confetti": "1.5.1",
     "cids": "1.1.9",
