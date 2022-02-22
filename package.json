@@ -16,9 +16,7 @@
     "format:check:staged": "pretty-quick --staged --check",
     "format:write": "prettier --write \"**/*.{js,jsx,ts,tsx}\"",
     "updateLPsAPR": "NODE_PATH=./src ts-node --compiler-options '{\"module\":\"commonjs\"}' scripts/updateLPsAPR.ts",
-    "prepare": "husky install",
-    "postinstall": "yarn run typechain",
-    "typechain": "typechain --out-dir src/config/abi/types --target=ethers-v5 \"src/config/abi/*.json\""
+    "prepare": "husky install"
   },
   "browserslist": {
     "production": [
@@ -76,7 +74,7 @@
     "multicodec": "^2.0.0",
     "multihashes": "^3.0.1",
     "next": "^12.0.7",
-    "paybolt-uikit": "github:paybolt/paybolt-uikit",
+    "paybolt-uikit": "https://github.com/paybolt/paybolt-uikit",
     "numeral": "^2.0.6",
     "qs": "^6.9.4",
     "react": "^17.0.1",
